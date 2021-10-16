@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+nav::after
+{
+    content: '';
+    background-color: lightseagreen;
+    position: absolute;
+    opacity: 0.2;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 2300px;
+    z-index: -1;
+}
+
+a {
+    font-family: 'Libre Franklin', sans-serif;
+  }
+
+  

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+.Heading{
+  color: rgba(128, 0, 0, 0.74);
+  justify-content: center;  
+  align-items: center;
+  display: flex;
+  margin: 20px;
+  font-family: 'Zilla Slab', serif;
+  font-size: 60px;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-family: 'Dosis', sans-serif;
+  color: rgba(255, 0, 0, 0.89);
+  font-size: 23px;
+}
+
+a {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+body{
+    height: 1100px;
+}
+
+nav::after
+{
+    content: '';
+    background-color: rgb(177, 177, 14);
+    position: absolute;
+    opacity: 0.3;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 1300px;
+    z-index: -1;
+}

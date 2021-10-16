@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+.Heading h1{
+  color: lightslategray;
+  justify-content: center;  
+  align-items: center;
+  display: flex;
+  margin: 20px;
+  font-family: 'Zilla Slab', serif;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-family: 'Dosis', sans-serif;
+  color: rgb(199, 129, 0);
+  font-size: 23px;
+}
+
+a {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img img{
+    padding-left: 50px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 94px;
+}
+
+body{
+    height: 1100px;
+}
+
+#img2 {
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 400px;
+}
+
+#img1 {
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 450px;
+}
+
+#img3 {
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 450px;
+}
+
+.img2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img2 img {
+    padding-left: 50px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.text ol li {
+  margin-top: 40px;
+  margin-bottom: 40px; 
+  font-size: 25px;
+}
+
+nav::after
+{
+    content: '';
+    background-color: orange;
+    position: absolute;
+    opacity: 0.3;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 2300px;
+    z-index: -1;
+}
