@@ -8,6 +8,7 @@
   display: flex;
   margin: 20px;
   font-family: 'Zilla Slab', serif;
+  /* font-weight: 600; */
 }
 .text{
   display: flex;
@@ -33,7 +34,7 @@ a {
     padding-left: 50px;
     padding-bottom: 40px;
     margin-top: 30px;
-    margin-bottom: 94px;
+    margin-bottom: 50px;
 }
 
 body{
@@ -69,9 +70,8 @@ body{
 
 .img2 img {
     padding-left: 50px;
-    padding-bottom: 40px;
-    margin-top: 10px;
-    margin-bottom: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .text ol li {
@@ -89,6 +89,6 @@ nav::after
     top: 0px;
     left: 0px;
     width: 100vw;
-    height: 2300px;
+    height: 2200px;
     z-index: -1;
 }

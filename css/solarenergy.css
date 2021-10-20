@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&family=Zilla+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
 .Heading{
-  color: rgba(128, 0, 0, 0.74);
+  color: rgba(3, 124, 3, 0.74);
   justify-content: center;  
   align-items: center;
   display: flex;
@@ -16,9 +16,40 @@
   align-items: center;
   padding-left: 60px;
   padding-right: 60px;
+  flex-direction: column;
   font-family: 'Dosis', sans-serif;
   color: rgba(255, 0, 0, 0.89);
   font-size: 23px;
+}
+.text ol li {
+  margin-top: 40px;
+  margin-bottom: 40px; 
+  font-size: 25px;
+}
+
+#img2 {
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 400px;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.img img {
+  margin-right: 50px;
+}
+
+#img1 {
+align-items: center;
+justify-content: center;
+width: 500px;
+height: 400px;
 }
 
 a {

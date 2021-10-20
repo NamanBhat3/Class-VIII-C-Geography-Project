@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&family=Zilla+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
 .Heading{
-  color: rgba(128, 0, 0, 0.74);
+  color: rgba(0, 0, 187, 0.774);
   justify-content: center;  
   align-items: center;
   display: flex;
@@ -35,7 +35,7 @@ nav::after
     content: '';
     background-color: lightgreen;
     position: absolute;
-    opacity: 0.4;
+    opacity: 0.5;
     top: 0px;
     left: 0px;
     width: 100vw;
