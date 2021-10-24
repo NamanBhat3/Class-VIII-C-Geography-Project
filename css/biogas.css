@@ -12,13 +12,12 @@
 }
 .text{
   display: flex;
-  justify-content: center;
-  align-items: center;
   padding-left: 60px;
   padding-right: 60px;
   font-family: 'Dosis', sans-serif;
   color: green;
   font-size: 27px;
+  flex-direction: column;
 }
 
 a {
@@ -30,6 +29,12 @@ body{
     height: 1100px;
 }
 
+
+.text ol li {
+  margin-top: 40px;
+  margin-bottom: 40px; 
+  font-size: 25px;
+}
 nav::after
 {
     content: '';
@@ -39,6 +44,46 @@ nav::after
     top: 0px;
     left: 0px;
     width: 100vw;
-    height: 1300px;
+    height: 2300px;
     z-index: -1;
+}
+
+.img img{
+  padding-left: 50px;
+  padding-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#img2 {
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 300px;
+}
+
+#img1 {
+align-items: center;
+justify-content: center;
+width: 600px;
+height: 300px;
+}
+
+#img3 {
+align-items: center;
+justify-content: center;
+width: 500px;
+height: 450px;
+}
+
+.img2{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.img2 img {
+  padding-left: 50px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
